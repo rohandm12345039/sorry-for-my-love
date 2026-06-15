@@ -269,9 +269,12 @@
     <div class="bg-heart" style="top: 20%; left: 50%; animation-delay: 8s;">💝</div>
 
     <div class="container">
-        <div id="mainText">I'm really sorry ❤️<br>Please forgive me 🥺</div>
+        <div id="mainText">
+Sorry Muddu 🥺❤️<br>
+From your Golden Retriever 🐕
+</div>
         <div class="buttons">
-            <button id="yesBtn">Okay baby, I forgive you 💖</button>
+            <button id="yesBtn">Okay cutu goldie , I forgive you 💖</button>
             <button id="noBtn">No, I'm still angry 😠</button>
         </div>
         <div id="clickCount"></div>
@@ -286,23 +289,33 @@
         const clickCount = document.getElementById('clickCount');
         const buttonsContainer = document.querySelector('.buttons');
 
-        const sorryMessages = [
-            "I'm really sorry ❤️<br>Please forgive me 🥺",
-            "I promise I'll never do it again 😢💕",
-            "You mean the world to me 🌍💖",
-            "I can't stop thinking about how sorry I am 😭",
-            "Please give me another chance 🙏❤️",
-            "I'll do anything to make it up to you 💝",
-            "You're the most important person to me 🥰",
-            "I messed up, but I love you so much 💕😔",
-            "Life isn't the same without your smile 😢💖",
-            "I promise to be better for you 🌟❤️",
-            "Forgive me please? I'll buy you ice cream 🍦💕",
-            "I'm so so so sorry baby 😭❤️",
-            "You deserve the world and I'll give it to you 🌹💖",
-            "Pretty please with a cherry on top? 🍒🥺",
-            "I'll never let you down again, I promise 💍❤️"
-        ];
+       const sorryMessages = [
+    "Okay okay, I know I messed up 😔🐶",
+    "Muddu, don't make that angry kitty face 😭🐱",
+    "Bubu, I'm officially in apology mode 🥺",
+    "Golden Retriever mode activated 🐕✨",
+    "My cute little kitty is still judging me 🐱😤",
+    "Current mood: Puppy who got caught being silly 😔🐶",
+    "Me: 🥺🐶  You: 😤🐱",
+    "Kitty vs Golden Retriever: Round 57 🐱⚔️🐕",
+    "Bubu.exe is processing my apology... ⏳💕",
+    "I have brought virtual BBQ Pizza 🍕✨",
+    "And one All American Burger too 🍔😌",
+    "Muddu's stare is stronger than WiFi 📶😭",
+    "This Golden Retriever has learned his lesson 🐕📚",
+    "Bubu has unlocked boss mode 👑🐱",
+    "Puppy ears have been lowered respectfully 🐶⬇️",
+    "I am once again saying sorry 😔",
+    "You look cute even when you're judging me 🐱✨",
+    "Current status: Regretting my life choices 😭",
+    "Kitty detected. Brain stopped working 🐱💖",
+    "A BBQ Pizza for the kitty 🍕 and a treat for the puppy 🦴🐕",
+    "Muddu, please reduce the sass levels 📉😭",
+    "I'm sitting here like a guilty Golden Retriever 🐕🥺",
+    "Bubu's anger level: 9999 📈",
+    "Still chasing the No button? 😭😂",
+    "Okay, I'll stop talking and just be sorry 😔❤️"
+];
 
         let currentMessageIndex = 0;
         let noClickCount = 0;
@@ -443,10 +456,10 @@
 
         // Handle Yes button click
         yesBtn.addEventListener('click', function() {
-            mainText.innerHTML = "Yay! You forgave me! 😍💖🥳";
+            mainText.innerHTML = "Kitty accepted the Golden Retriever again 🐱❤️🐕";
             emojiContainer.innerHTML = "😊❤️💃🎉✨🥰💕🌟🎊💖🌹😘";
             emojiContainer.classList.remove('hidden');
-            clickCount.innerHTML = "I LOVE YOU SO MUCH! ❤️❤️❤️";
+            clickCount.innerHTML = "I LOVE YOU SO MUCH! KHIII ❤️❤️❤️";
             buttonsContainer.style.display = 'none';
 
             for (let i = 0; i < 30; i++) {
