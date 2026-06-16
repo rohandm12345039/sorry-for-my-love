@@ -12,7 +12,7 @@
         }
 
         body {
-            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            font-family: 'Trebuchet MS', sans-serif;
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -20,7 +20,8 @@
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #ff69b4, #ff1493, #ff69b4, #e73c7e);
             background-size: 400% 400%;
             animation: gradientShift 8s ease infinite;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
             position: relative;
         }
 
@@ -60,7 +61,8 @@
             background: rgba(255, 255, 255, 0.98);
             border-radius: 35px;
             box-shadow: 0 25px 70px rgba(255, 105, 180, 0.5);
-            max-width: 650px;
+            max-width: 500px;
+            padding: 30px 20px;
             width: 90%;
             animation: floatIn 1s ease-out;
             border: 3px solid rgba(255, 105, 180, 0.3);
@@ -80,7 +82,7 @@
         }
 
         #mainText {
-            font-size: 2.8em;
+            font-size: 2.2em;
             color: #e73c7e;
             margin-bottom: 50px;
             font-weight: bold;
@@ -90,10 +92,10 @@
         }
 
         @media (max-width: 768px) {
-            #mainText {
-                font-size: 2em;
-            }
-        }
+    #mainText {
+        font-size: 1.5em;
+    }
+}
 
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
@@ -114,7 +116,7 @@
 
         @media (max-width: 768px) {
             .buttons {
-                min-height: 350px;
+                min-height: auto;
                 flex-direction: column;
             }
         }
